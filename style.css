@@ -65,15 +65,16 @@ a:focus {
 header {
     background: #2e354f;
     padding: 45px 0;
-    color: #fff;
-    width: 620px;
-    margin: 0 auto;
+    color: #fff;    
 }
 
 section {
+    padding: 45px 0;
+}
+
+.container {
     width: 620px;
     margin: 0 auto;
-    padding: 45px 0;
 }
 
 .section-two {
