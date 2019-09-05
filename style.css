@@ -29,7 +29,35 @@ a {
 
 a:hover,
 a:focus {
-    color: gold;
+    color: #d4b44c;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.btn-accent {
+    background: #ef5839;
+    color: #fff;
+}
+
+.btn-accent:hover {
+    color: darkred;
+    background: #d4b44c;
+}
+
+.btn-white {
+    background: darkgray;
+    color: #fff;
+}
+
+.btn-white:hover {
+    color: darkred;
+    background: #d4b44c;
 }
 
 /* Layout */
@@ -52,3 +80,4 @@ section {
     background: #2e354f;
     color: #fff;
 }
+
